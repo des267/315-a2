@@ -8,8 +8,8 @@
  */
 const countNumberOfArrays = function (array) {
     let result = 0;
-    array.forEach(function(element) {
-        if (Array.isArray(element)) {
+    array.forEach(function(value) {
+        if (Array.isArray(value)) {
             result++;
         }
     })
