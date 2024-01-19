@@ -1,4 +1,9 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * isArrayFactorChain(array)
  * Checks an array of numbers to see if it is an array factor
  * chain.

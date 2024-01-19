@@ -1,8 +1,13 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * winnersObject(matches)
  * Creates an object containing each player's name as a key
- * and the an array of names of those they beat. Accepts an
- * array of matches as a parameter.
+ * and an array of names of those they beat as a value.
+ * Accepts an array of matches as a parameter.
  *
  * @param matches - An array of matches
  * @returns {{}} - An object of participants names and those they beat.

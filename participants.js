@@ -1,4 +1,9 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * participants(matches)
  * Accepts an array of matches and returns an array of all the
  * unique participant's names.

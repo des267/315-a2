@@ -1,4 +1,9 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * biggestLoser(matches)
  * Finds the name of the player with the most loser points
  * from an array that is passed as a parameter containing

@@ -1,4 +1,7 @@
-
+/**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
 // Array functions
 const countNumberOfArrays = require('./countNumberOfArrays');
 const findNaNIndex = require('./findNaNIndex');

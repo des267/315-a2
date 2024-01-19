@@ -1,4 +1,9 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * findNaNIndex(array)
  * Accepts an array of values as a parameter and finds each index
  * where NaN is found and adds them to an array to be returned.

@@ -1,4 +1,9 @@
 /**
+ *  Author: Desmond Stular @github/des267
+ *  January 19, 2024
+ */
+
+/**
  * countNumberOfArrays(array)
  * Counts and returns the number of arrays nested in an array
  * that is passed as a parameter.
