@@ -1,6 +1,6 @@
 {
   "name": "@des267/315-a2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of array and object functions. Created for my web application development class.",
   "main": "index.js",
   "scripts": {
