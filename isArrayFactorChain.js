@@ -12,15 +12,25 @@
  * @returns {boolean} - True if factor chain, false if not.
  */
 const isArrayFactorChain = function (array) {
-    if (array.length < 2) {  // not factor if array < 2 values
-        return false;
-    }
-    for (let i= 0; i < array.length - 1; i++) {
-        if (array[i+1] % array[i] !== 0) {
-            return false;   // return false if next element not facto
+    try {
+        // If parameter not array, throws exception
+        if (!Array.isArray(array)) {
+            throw TypeError;
         }
+        // Cannot be factor chain if less than 2 values in array
+        if (array.length < 2) {
+            return false;
+        }
+        for (let i = 0; i < array.length - 1; i++) {
+            if (array[i + 1] % array[i] !== 0) {
+                return false;   // return false if next element not factor of current
+            }
+        }
+        return true;    // If loop completes, it is a factor chain
     }
-    return true;    // If loop completes, a factor chain
+    catch(err) {        // Catches if parameter not an array
+        console.log(err + ": Parameter is not of type Array.");
+    }
 };
 
 module.exports = isArrayFactorChain;
