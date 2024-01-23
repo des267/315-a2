@@ -6,7 +6,7 @@
  * Included are some examples of using the functions to
  * manipulate arrays and objects.
  *
- * Author: Desmond Stular
+ * Author: Desmond Stular @github/des267
  * Date: January 23, 2024
  */
 

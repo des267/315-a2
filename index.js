@@ -1,4 +1,6 @@
 /**
+ *  index.js
+ *
  *  Author: Desmond Stular @github/des267
  *  January 19, 2024
  */
@@ -18,5 +20,5 @@ module.exports = {
     isArrayFactorChain,
     biggestLoser,
     participants,
-    winnersObject,
+    winnersObject
 };

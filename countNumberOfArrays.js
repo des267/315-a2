@@ -1,4 +1,6 @@
 /**
+ *  countNumberOfArrays.js
+ *
  *  Author: Desmond Stular @github/des267
  *  January 19, 2024
  */
