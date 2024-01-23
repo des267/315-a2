@@ -23,7 +23,7 @@ const matches = [
 ]
 
 // ##### ARRAY FUNCTIONS #####
-console.log("**** ARRAY FUNCTIONS TEST CASES ****");
+console.log("**** ARRAY FUNCTIONS TEST CASES ****\n");
 
 // Test case: findNaNIndex
 // Find all indexes where NaN is located
@@ -92,7 +92,7 @@ console.log("**** MANIPULATION EXAMPLES USING FUNCTIONS ****\n");
 //              remove them using splice.
 console.log("Example #1: Remove NaN by index using findNaNIndex");
 let example1Array = [NaN, 10, 32, NaN, 44, NaN, 100];
-let example1Result = findNaNIndex(example1Array);
+let example1Result = _.findNaNIndex(example1Array);
 console.log(example1Result);
 console.log("Array before");
 console.log(example1Array);
