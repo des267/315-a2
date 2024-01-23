@@ -1,0 +1,24 @@
+{
+  "name": "@des267/315-a2",
+  "version": "1.0.0",
+  "description": "A collection of array and object functions. Created for my web application development class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/des267/315-a2.git"
+  },
+  "keywords": [
+    "315-a2",
+    "array",
+    "object"
+  ],
+  "author": "Desmond Stular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/des267/315-a2/issues"
+  },
+  "homepage": "https://github.com/des267/315-a2#readme"
+}
