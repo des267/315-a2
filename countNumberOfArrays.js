@@ -12,13 +12,22 @@
  * @returns {number} - Number of arrays found
  */
 const countNumberOfArrays = function (array) {
-    let result = 0;
-    array.forEach(function(value) {
-        if (Array.isArray(value)) {
-            result++;
+    try {
+        // If parameter is not of type array, throw exception
+        if (!Array.isArray(array)) {
+            throw "TypeError: Parameter is not of type Array.";
         }
-    })
-    return result;
+        let result = 0;
+        array.forEach(function(value) {
+            if (Array.isArray(value)) {
+                result++;
+            }
+        })
+        return result;
+    }
+    catch(err) {
+        console.log(err);
+    }
 }
 
 module.exports = countNumberOfArrays;
