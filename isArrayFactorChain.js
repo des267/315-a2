@@ -15,7 +15,7 @@ const isArrayFactorChain = function (array) {
     try {
         // If parameter not array, throws exception
         if (!Array.isArray(array)) {
-            throw TypeError;
+            throw "TypeError: Parameter is not of type Array.";
         }
         // Cannot be factor chain if less than 2 values in array
         if (array.length < 2) {
@@ -29,7 +29,7 @@ const isArrayFactorChain = function (array) {
         return true;    // If loop completes, it is a factor chain
     }
     catch(err) {        // Catches if parameter not an array
-        console.log(err + ": Parameter is not of type Array.");
+        console.log(err);
     }
 };
 
