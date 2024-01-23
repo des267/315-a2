@@ -3,9 +3,11 @@
  *
  * This file contains the test cases which demonstrate the
  * use and functionality of each function within this library.
+ * Included are some examples of using the functions to
+ * manipulate arrays and objects.
  *
  * Author: Desmond Stular
- * Date: Desmond Stular
+ * Date: January 23, 2024
  */
 
 const _ = require('./index.js')
